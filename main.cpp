@@ -20,7 +20,7 @@ int main()
     font.loadFromFile("data/arial.ttf");
     sf::Text text;
     text.setFont(font);
-    text.setString("Klikajac klawicz 'RIGHT' zmieniasz panstwo, klikajac 'w' wybierasz panstwo");
+    text.setString("Klikajac klawicz 'RIGHT' zmieniasz panstwo, klikajac 'ENTER' wybierasz panstwo");
     text.setCharacterSize(15);
     text.setFillColor(sf::Color::Red);
 
